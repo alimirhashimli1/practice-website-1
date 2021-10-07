@@ -9,7 +9,7 @@
 
 body {
     background-color: blue;
-    background: linear-gradient(rgba(31, 195, 160, 0.1), rgba(31, 195, 160, 0.1)), url(/img/background-1.jpeg) no-repeat center center fixed;
+    background: linear-gradient(rgba(31, 195, 160, 0.1), rgba(31, 195, 160, 0.1)), url(https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?size=626&ext=jpg&ga=GA1.2.2061399279.1632096000) no-repeat center center fixed;
     background-size: cover;
     background-size: cover;
 }
