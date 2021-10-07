@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Spartan', sans-serif;
+}
+
+body {
+    background-color: blue;
+    background: linear-gradient(rgba(31, 195, 160, 0.1), rgba(31, 195, 160, 0.1)), url(/img/background-1.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    background-size: cover;
+}
+
+/* Background page */
+
+.background-page {
+    width: 90%;
+    height: 85vh;
+    margin: 5%;
+    box-shadow: 1px 1px 20px rgb(175, 175, 175);
+    background-color: white;
+}
+
+/* end of background page */
+
+/* Header */
+
+.upper {
+    padding: 5% 5% 0% 10%;
+}
+
+
+header {
+    width: 50%;
+    display: inline-block;
+}
+
+header h1 {
+    width: 60%;
+    font-size: 2.5rem;
+    color: hsl(302, 62%, 20%);
+    font-weight: 900;
+}
+
+header p {
+    width: 70%;
+}
+
+/* End of header */
+
+/* Reviews */
+
+.reviews {
+    display: inline-block;
+    margin: 10px;
+}
+
+.reviews .box {
+    background-color: rgb(238, 238, 238);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    padding: 15px 50px 15px 30px;
+    justify-content: center;
+    
+} 
+
+.box span {
+    color: goldenrod;
+}
+
+.box-1 {
+    position: relative;
+    left: 40px;
+}
+
+.box-2 {
+    position: relative;
+    left: 80px;
+}
+
+.box-3 {
+    position: relative;
+    left: 120px;
+}
+
+.box p {
+    position: relative;
+    left: 10px;
+    font-weight: 400;
+}
+
+/* End of reviews */
+
+/* Comments */
+
+.comments {
+    display: flex;
+    align-items: center;
+    padding: 5% 5% 0% 10%;;
+}
+
+.comments .customer:nth-of-type(2) {
+    position: relative;
+    top: 20px;
+}
+
+.comments .customer:nth-of-type(3) {
+    position: relative;
+    top: 40px;
+}
+
+.customer {
+align-items: center;
+margin-right: 20px;
+padding: 30px;
+background-color: hsl(302, 62%, 20%);
+border-radius: 10px;
+width: 400px;
+height: 250px;
+}
+
+.customer p:nth-of-type(2) {
+    padding: 10px;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.customer p:nth-of-type(1), .customer h4 {
+    padding: 0px;
+    position: relative;
+    left: 10px;
+    color: hsl(302, 64%, 45%);
+}
+
+.customer h4 {
+    color: white;
+}
+
+
+.customer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+}
+
+/* end of comments */
